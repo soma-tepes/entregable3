@@ -1,0 +1,9 @@
+.residentList{
+display: grid;
+gap: 20px;
+
+grid-auto-rows: auto;
+justify-items: center;
+
+
+}
