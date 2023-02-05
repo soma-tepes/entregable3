@@ -1,11 +1,14 @@
 import React from 'react'
+import { numbersPage } from '../utilss/script'
 
-const Pagination = ({setPage,numbersPage}) => {
+const Pagination = ({setPage,RESIDENT_PERPAGE,location}) => {
   return (
    
     <ul>
     {
-      numbersPage().map(numbersPage=> <li onClick={()=>setPage(numbersPage)} key={numbersPage}>{numbersPage}</li>)
+      numbersPage({location,RESIDENT_PERPAGE}).map(numbersPage=>
+         <li onClick={()=>setPage(numbersPage)} 
+         key={numbersPage}>{numbersPage}</li>)
     }
   </ul>
   )
