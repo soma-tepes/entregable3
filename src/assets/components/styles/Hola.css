@@ -1,37 +1,40 @@
-
-
-.input_dad{
-    display: flex;
+.input_dad {
+  display: flex;
   justify-content: center;
   height: 30vh;
   align-items: flex-end;
- border: 10px solid black;
+
 }
 
 
-.form_dad{ 
-   
-   display: flex;
-  
-   
+.form_dad {
+
+  display: flex;
   justify-content: center;
- 
- 
+
+
 }
-.form_input{
+
+.form_input {
   padding: 15px 20px;
   border-radius: 5px;
-   height: 5vh;
+  height: 5vh;
   background-color: black;
-  color:white;
+  color: white;
   font-weight: 800;
   width: 50vw;
- 
-}
-.form_button{
-border-radius: 5px;
-background-color: gray;
-color: aliceblue;
-height: 5vh;
 
+}
+.form_button {
+  border-radius: 5px;
+  background-color: rgb(63, 63, 65);
+  color: aliceblue;
+  height: 5vh;
+  cursor: pointer;
+
+}
+
+.form_button:hover {
+  background-color: orangered;
+  transition: 500ms ease;
 }

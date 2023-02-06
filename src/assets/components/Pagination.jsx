@@ -3,12 +3,14 @@ import "./styles/Pagination.css"
 import { numbersPage } from '../utilss/script'
 
 const Pagination = ({setPage,RESIDENT_PERPAGE,location}) => {
+console.log(RESIDENT_PERPAGE)
+
   return (
    <div className='pagination_dad'>
     <ul className='pagination'>
     {
       numbersPage({location,RESIDENT_PERPAGE}).map(numbersPage=>
-         <li className={`pagination_list`} onClick={()=>setPage(numbersPage)} 
+         <li className={ `pagination_list`} onClick={()=>setPage(numbersPage)} 
          key={numbersPage}>{numbersPage}</li>)
     }
   </ul>
