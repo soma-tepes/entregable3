@@ -15,7 +15,7 @@ const ResidentCard = ({ residentUrl }) => {
   return (
     <article className="residentCard">
       <div className="residentCard_img">
-        <img src={residentInfo?.image} alt="" />
+        {/* <img src={residentInfo?.image} alt="" /> */}
       </div>
 
       <div className="residentCard_status">

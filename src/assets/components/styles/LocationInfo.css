@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+   padding-left: 5%;
+   padding-right: 5%;
 }
 
 
@@ -24,10 +25,10 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 3%;
-
+    font-size: 6vw;
     width: 100%;
-
-    font-size: 40px;
+    font-family: sans-serif;
+    
     height: 100%;
 }
 
@@ -39,7 +40,7 @@
     justify-content: center;
     margin-bottom: 5%;
     width: 80vw;
-    font-size: 60px;
+   
 
 
 }
@@ -47,6 +48,7 @@
 
 .location_item {
     font-size: 23px;
-
-
+    font-size: 2vw;
+   padding-left: 1%;
+   padding-right: 1%;
 }
