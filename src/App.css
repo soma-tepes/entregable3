@@ -1,0 +1,12 @@
+.backgroud{
+    background-image: url(./assets/imagenes/headerimage.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+    
+    background-position-y: 50% ;
+  
+   
+}
+
+
+body{  background-color: #05292E;}

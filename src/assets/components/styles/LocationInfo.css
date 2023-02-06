@@ -1,0 +1,31 @@
+.location_dad{
+
+    display: grid;
+align-items: center;
+justify-content: center;
+padding-left: 5%;
+padding-right: 5%;
+
+
+}
+
+.location_title{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 3%;
+border: 1px solid black;
+
+}
+
+.location_ul{
+    
+    display: flex;
+    border: 1px solid black;
+    gap: 2%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.location_item{}

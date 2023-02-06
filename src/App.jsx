@@ -53,12 +53,18 @@ function App() {
   }, [nameLocation]);
 
   return (
-    <div className="App">
+    <div className="App ">
+      <div className="backgroud">
       <Hola handleSubmit={handleSubmit} />
+      </div>
+      <div className="backgroud_container">
+      <Pagination location={location} RESIDENT_PERPAGE={RESIDENT_PERPAGE}  setPage={setPage} />
       <LocationInfo location={location} />
       <ResidentList pagination={pagination} />
       <Pagination location={location} RESIDENT_PERPAGE={RESIDENT_PERPAGE}  setPage={setPage} />
     </div>
+    </div>
+    
   );
 }
 
