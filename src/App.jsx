@@ -5,10 +5,10 @@ import "./App.css";
 import Hola from "./assets/components/Hola";
 import LocationInfo from "./assets/components/LocationInfo";
 import Pagination from "./assets/components/Pagination";
-import ResidentCard from "./assets/components/ResidentCard";
+
 import ResidentList from "./assets/components/ResidentList";
 import { getRandomNumber } from "./assets/utilss/handleRandom";
-import { numbersPage } from "./assets/utilss/script";
+
 
 const RESIDENT_PERPAGE = 12;
 
