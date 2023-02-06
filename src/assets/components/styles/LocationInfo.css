@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 3%;
-    font-size: 6vw;
+    font-size: 2rem;
     width: 100%;
     font-family: sans-serif;
     
@@ -33,22 +33,30 @@
 }
 
 .location_ul {
-
     display: flex;
-
-    gap: 8%;
+    gap: 6%;
     justify-content: center;
     margin-bottom: 5%;
     width: 80vw;
-   
-
-
-}
+   }
 
 
 .location_item {
-    font-size: 23px;
-    font-size: 2vw;
+  
+    
    padding-left: 1%;
    padding-right: 1%;
 }
+
+@media screen and (min-width: 601px) {
+    .location_item {
+      font-size: 26px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .location_item{
+      font-size: 17px;
+    }
+  }
