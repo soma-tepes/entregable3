@@ -5,8 +5,8 @@
    align-items: center;
    padding-left: 1%;
    padding-right: 1%;
-   height: 30vh;
-   
+   height: 2vh;
+   margin: 20vh;
 }
 
 
@@ -23,7 +23,7 @@
 
 .location_ul {
    display:flex;
-   margin: 2%;
+ 
    justify-content: space-between;
     margin-bottom: 5%;
     width: 80vw;
@@ -32,31 +32,49 @@
    
    }
 
-
-
+.location_ul  span {
+  color :rgba(0, 255, 255, 0.438)
+}
    
-
+.location_item{
+  margin:3%
+}
 
 @media screen and (min-width: 601px) {
     .location_item {
       font-size: 2.2vw;
       padding: 3.5%;
       font-family: Arial, Helvetica, sans-serif;
+    
     }
+    .location_item:nth-child(1) { color: rgb(194, 194, 189);}
+    .location_item:nth-child(2) { color: rgba(238, 245, 208, 0.842);}
+    .location_item:nth-child(3) { color: rgb(194, 194, 189);}
+    .location_item:nth-child(4) { color: rgba(238, 245, 208, 0.842);}
+    
+    
+
   }
+  
+
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
     .location_item{
       font-size: 3vw;
-    
-     
-    }
+     }
+     .location_dad_nav {
+      height: 2vh;
+   margin: 10vh;
+     }
+
   }
   @media screen and (max-width: 421px) {
     .location_item{
       font-size: 3vw;
-      
-  
-    }
+      }
+      .location_dad_nav {
+        height: 2vh;
+         margin: 5qvh;
+       }
   }
