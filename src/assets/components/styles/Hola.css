@@ -35,3 +35,11 @@
 
 }
 
+
+@media screen and (max-width: 600px) {
+  .form_button{height: 3vh;
+    
+   height: 5vh;
+  }
+  
+}
