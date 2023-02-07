@@ -35,7 +35,3 @@
 
 }
 
-.form_button:hover {
-  background-color: orangered;
-  transition: 500ms ease;
-}
