@@ -59,22 +59,32 @@
 
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-height: 533px) {
+    .location_dad_nav {padding-top: 15vh;padding-bottom: 15vh;
+      
+    }
+} 
+
   @media screen and (max-width: 600px) {
     .location_item{
       font-size: 3vw;
      }
      .location_dad_nav {
       height: 2vh;
-   margin: 10vh;
+      margin: 10vh;
+      
      }
 
   }
   @media screen and (max-width: 421px) {
     .location_item{
       font-size: 3vw;
+
       }
       .location_dad_nav {
-        height: 2vh;
-         margin: 5qvh;
+        
+         margin: 8vh;
+         padding: 3vh;
        }
   }
+ 

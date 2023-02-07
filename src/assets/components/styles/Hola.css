@@ -30,16 +30,18 @@
   border-radius: 5px;
   background-color: rgb(63, 63, 65);
   color: aliceblue;
-  height: 5vh;
+ }
+
+ .form_button:hover{
+  background-color: orange;
+  transition: 500ms ease;
+  cursor: pointer;
+ }
 
 
-}
-
-
-@media screen and (max-width: 600px) {
-  .form_button{height: 3vh;
+@media screen and (max-width: 600px),screen and (max-height: 588px) {
+  .form_button{height: auto;
     
-   height: 5vh;
-  }
+}
   
 }
