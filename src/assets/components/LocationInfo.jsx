@@ -4,8 +4,9 @@ const LocationInfo = ({location}) => {
   return (
     <div className='location_dad_nav'>
     <section className='location_dad'>
-    <h2 className='location_title'>{location?.name}</h2>
+    
     <ul className='location_ul'>
+    <li className='location_item'><span>Name:</span> {location?.name} </li>
     <li className='location_item'><span>Type: </span>{location?.type}</li>
     <li className='location_item'><span>Dimension: </span>{location?.dimension}</li>
     <li className='location_item'><span>Population: </span>{location?.residents.length}</li></ul>

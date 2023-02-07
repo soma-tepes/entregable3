@@ -3,7 +3,7 @@ import "./styles/Pagination.css"
 import { numbersPage } from '../utilss/script'
 
 const Pagination = ({setPage,RESIDENT_PERPAGE,location}) => {
-console.log(RESIDENT_PERPAGE)
+
 
   return (
    <div className='pagination_dad'>

@@ -1,48 +1,40 @@
 .location_dad_nav {
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+  justify-content: center;
+  align-items: center;
    padding-left: 5%;
    padding-right: 5%;
+   
+   height: 20vh;
+ 
 }
 
 
 .location_dad {
+  
+    width: 80vw;
     margin-top: 5vh;
-    min-width: 80vw;
-    display: grid;
-    place-content: center;
-
     color: white;
-
-
-
-}
-
-.location_title {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 3%;
-    font-size: 2rem;
-    width: 100%;
-    font-family: sans-serif;
     
-    height: 100%;
 }
+
 
 .location_ul {
-    display: flex;
-    gap: 6%;
-    justify-content: center;
+   display:flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   justify-content: space-between;
     margin-bottom: 5%;
     width: 80vw;
+    background-color: #062226;
+    border: 1px solid white;
    }
 
 
 .location_item {
-  
+ 
     
    padding-left: 1%;
    padding-right: 1%;
@@ -50,7 +42,7 @@
 
 @media screen and (min-width: 601px) {
     .location_item {
-      font-size: 26px;
+      font-size: 2vw;
     }
   }
   
@@ -58,5 +50,14 @@
   @media screen and (max-width: 600px) {
     .location_item{
       font-size: 17px;
+     line-height: 100%;
+     padding: 0;
+    }
+  }
+  @media screen and (max-width: 421px) {
+    .location_item{
+      font-size: 4vw;
+     line-height: 100%;
+     padding: 0;
     }
   }
