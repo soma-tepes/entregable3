@@ -1,6 +1,6 @@
 .backgroud{
     background-image: url(./assets/imagenes/headerimage.jpg);
-    background-size: cover;
+    background-size: 100vw;
    background-repeat: no-repeat;
     
     background-position-y: 50% ;
@@ -8,5 +8,13 @@
    
 }
 
-
+@media screen and (max-width: 557px) {
+    .backgroud{
+        background-repeat: no-repeat;
+        background-size: 80vh;
+        background-position-x: 50% ;
+      
+       
+    }
+  }
 body{  background-color: #05292E;}
