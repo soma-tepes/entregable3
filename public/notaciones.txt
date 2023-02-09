@@ -1,0 +1,43 @@
+flex-direction: columns   'organiza los elementos en columnas'
+columns-reverse   'organiza los elementos invertidos al origen'
+columns-rows 'organiza los elementos en filas'
+rows-reverse 'organiza los elementos invertido en filas al origen'
+
+flex-wrap : 
+wrap : 'desplaza elementos, si no existe espacio en los contenedores, los va colocando debajo'
+-wrap a considerar-
+
+nowrap: 'dezplaza elementos , hasta el final del contedor , 
+wrap-reverse: 'invierte los elementos '
+existe la posibilidad de desbordar el contenido si se tiene un tamaño definido en los contenedores dad
+
+
+flex-flow 
+
+funcion de flex 
+*flex-direccion
+*flex-wrap
+
+flex-flow: 
+row wrap
+
+tip para contenedor usar medidad por px o rem , si se ocupa vw no se desplazaran las cajas
+
+
+justify-content   la accion de contenido 
+center   'justifica el contenido al centro'
+flex-start justifica el contenido al inicio movimiento de elementos sin invertir contenido
+flex-end ',movimiento de elementos sin invertir contenido'
+space-around 'justifica contendo en partes iguales'  -a considerar-
+space-beetwen 'separa contendido a los lados de forma uniforme'
+
+align-item :  mueve contenido en relacion a plano 'Y' si es invertido a 'X'
+center ' contenido a centro en plano y'
+flex-start 'contenido se posiciona al inicio '
+flex-end 'contenid se posiciona al final'
+align-stretch 'el valor por defaul de flex, rellena contenido '
+baseline 'alinea elementos en cuando se encuentra un texto'
+
+
+align-content 'Plano Y se expande segun la propiedan'
+space-around 'expande heigth del contendedor principal'

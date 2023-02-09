@@ -1,47 +1,42 @@
 .input_dad {
   display: flex;
   justify-content: center;
-  height: 30vh;
+  height: 200px;
   align-items: flex-end;
+  
 
 }
 
 
 .form_dad {
-
-  display: flex;
-  justify-content: center;
-
-
+ display: flex;
+ gap: 1%;
+ width: 60%;
 }
 
 .form_input {
-  padding: 15px 20px;
+ text-align: center;
   border-radius: 5px;
-  height: 5vh;
+  height: 2rem;
   background-color: black;
   color: white;
-  font-weight: 1000;
-  width: 50vw;
-  
+  font-weight: 800;
+  width: 90%;
 
 }
+
 .form_button {
-  border-radius: 5px;
+  border-radius: 18px;
   background-color: rgb(63, 63, 65);
   color: aliceblue;
- }
+  height: 2rem;
+}
 
- .form_button:hover{
-  background-color: orange;
-  transition: 500ms ease;
+.form_button:hover {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  transition: 200ms ease;
   cursor: pointer;
- }
+}
 
 
-@media screen and (max-width: 600px),screen and (max-height: 588px) {
-  .form_button{height: auto;
-    
-}
-  
-}
